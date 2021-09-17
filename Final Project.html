@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Travel Page" />
+    <meta name="keywords" content="travel, leisure" />
+    <meta name="author" content="Christina Okoduwa" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Page</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        color: #29668b;
+        background: linear-gradient(
+          90deg,
+          rgb(248, 200, 50) 0%,
+          rgb(139, 102, 241) 100%
+        );
+      }
+      
+
+      pre {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 24px;
+      }
+      .travel,
+      .africa,
+      .asia,
+      .australia,
+      .europe,
+      .north,
+      .south {
+        border-radius: 50px;
+        line-height: normal;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      .row {
+        display: flex;
+      }
+      .column {
+        flex: 100%;
+        padding: 10px;
+      }
+      .seychelles, .japan, .sydney, .france, .costarica , .peru {
+          font-size: 20px;
+          color: #29668b;
+      }
+      .travel {
+          display: block;
+          margin: 0 auto;
+          max-width: 100%;
+      }
+      .visit-victoria, .visit-tokyo, .visit-sydney, 
+      .visit-paris, .visit-tamarindo, .visit-cusco {
+          text-decoration: none;
+      }
+
+      .visit-victoria:hover, .visit-tokyo:hover, .visit-sydney:hover,
+      .visit-tamarindo:hover, .visit-paris:hover, .visit-cusco:hover {
+          text-decoration: none;
+          cursor: pointer;
+          background-color: #fffd75;
+      }
+
+      a {
+          color: #29668b;
+      }
+
+      button {
+          color: #29668b;
+          display: block;
+          margin: 20px auto;
+          border: 1px solid #fffdfb;
+          background: #fffdfb;
+          font-size: 16px;
+          font-weight: 100;
+          padding: 16px 24px;
+          border-radius: 30px;
+          transition: all 200ms ease;
+          box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+          cursor: pointer;
+      }
+
+      button:hover {
+        background:#29668b;
+        color: #fffdfb;
+        border: 1px solid #fffdfb;
+      }
+
+      textarea {
+          border-radius: 10px;
+          color: #29668b;
+      }
+
+    </style>
+  </head>
+  <body>
+      <div class="container">
+    <center><h1>My Travel Wish List</h1></center>
+    <img
+      class="travel"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/292/original/travel.jpeg?1630291452"
+      alt="Travel"
+    />
+    <center>
+      <pre class="first">
+      I have always<strong> loved </strong>traveling, even as a small child. 
+      My first international trip was to my parents home 
+      country of <em>Haiti</em>. I have been several times and just 
+      remember how beautiful the country was, especially
+      the beaches.</pre
+      >
+    </center>
+
+    <center>
+      <pre class="second">
+      As I have gotten older, I have explored other countries 
+      which includes: <em>Turks and Caicos, England, Netherlands, 
+      Italy, Montenegro, Greece, and Canada </em>. Each have been 
+      very special and I had great adventures there. </pre
+      >
+    </center>
+    <hr>
+
+    <h2>Future Travels</h2>
+    <p>
+      <pre>
+        Now my goal is to travel to at least one country in each of 
+        the 7 contients, well actually 6 out of the 7 contients. Sorry 
+        <span style="color: aliceblue;">Antartica</span> 🥶. Below are the countries and cities that I want to 
+        visit in the different contients.
+    </pre>
+    </p>
+    <div class="row">
+      <div class="column">
+        <h3>Africa</h3>
+        <img
+          class="africa"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/289/original/seychelles2.jpeg?1630291181"
+          alt="Seychelles"
+          width="400"
+          height="300"
+        />
+        <p>Victoria, Seychelles</p>
+        <pre class="seychelles">
+        To learn more about Victoria 
+        check this link below 👇🏾
+
+        <a href="http://www.seychelles.travel/home" target="_blank" class="visit-victoria">Visit Victoria</a>
+        </pre>
+      </div>
+      <div class="column">
+        <h3>Asia</h3>
+        <img
+          class="asia"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/291/original/tokyo-japan.jpeg?1630291375"
+          alt="Tokyo"
+          width="400"
+          height="300"
+        />
+        <p>Tokyo, Japan
+            <pre class="japan">
+        To learn more about Tokyo 
+        check this link below 👇🏾 
+            
+        <a href="https://www.gotokyo.org/en/index.html" target="_blank" class="visit-tokyo">Visit Tokyo</a>   
+            </pre> 
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h3>Australia</h3>
+        <img
+          class="australia"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/295/original/sydney1.jpeg?1630291980"
+          alt="Sydney"
+          width="400"
+          height="300"
+        />
+        <p>Sydney, Australia
+            <pre class="sydney">
+        To learn more about Sydney 
+        check this link below 👇🏾
+
+        <a href="https://www.sydney.com/us" target="_blank" class="visit-sydney">Visit Sydney</a>
+            </pre>
+        </p>
+      </div>
+      <div class="column">
+        <h3>Europe</h3>
+        <img
+          class="europe"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/294/original/paris2.jpeg?1630291964"
+          alt="Paris"
+          width="400"
+          height="300"
+        />
+        <p>Paris, France
+            <pre class="france">
+        To learn more about Paris 
+        check this link below 👇🏾
+
+        <a href="https://en.parisinfo.com/" target="_blank" class="visit-paris">Visit Paris</a>
+            </pre>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h3>North America</h3>
+        <img
+          class="north"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/296/original/Costa_Rica_Playa_Tamarindo.jpeg?1630291994"
+          alt="Tamarindo"
+          width="400"
+          height="300"
+        />
+        <p>Tamarindo, Costa Rica
+            <pre class="costarica">
+        To learn more about Tamarindo 
+        check this link below 👇🏾
+
+        <a href="https://www.govisitcostarica.com/region/city.asp?cID=24" target="_blank" 
+        class="visit-tamarindo">Visit Tamarindo</a>
+            </pre>
+        </p>
+      </div>
+      <div class="column">
+        <h3>South America</h3>
+        <img
+          class="south"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/297/original/machupicchu1.jpeg?1630292006"
+          alt="Cuzco"
+          width="400"
+          height="300"
+        />
+        <p>Cusco, Peru
+            <pre class="peru">
+        To learn more about Cusco 
+        check this link below 👇🏾
+
+        <a href="https://www.peru.travel/en/destinations/cusco" target="_blank" class="visit-cusco">Visit Cusco</a>
+            </pre>
+        </p>
+      </div>
+    </div>
+    <h2>Any Travel Suggestions? 🤔</h2>
+        <pre>
+    If you have any travel suggestions as to what 
+    other cities or countries I should visit place 
+    them in the box below and click submit
+        </pre>
+            
+    <button type="submit"> For Travel Suggestions Click Here</button> 
+
+    <p><a href="#top">Back to the Top</a></p>
+    
+    Built by Christina O. 💁🏾‍♀️
+    <a href="mailto:christina_8806@hotmail.com" target="_blank">Email</a>
+    </div>
+
+    <script>
+      function submitNow() {
+        let name = prompt("Please enter your first name");
+        let travel = prompt("Which country should I visit next?");
+        alert ("Great Idea!")
+        
+        if ( travel === "Seyechelles") {
+            let h1 = document.querySelector("h1");
+            h1.innerHTML =
+            "Thank you " + name + " for your suggestion to visit " + travel + "<br> I hope to see Africa soon ✈️ ";    
+        }
+        else if ( travel === "Japan") {
+            let h1 = document.querySelector("h1");
+            h1.innerHTML =
+            "Thank you " + name + " for your suggestion to visit " + travel + "<br> I hope to see Asia soon ✈️ ";    
+        } 
+        else if ( travel === "Australia") {
+            let h1 = document.querySelector("h1");
+            h1.innerHTML =
+            "Thank you " + name + " for your suggestion to visit " + travel + "<br> I hope to see Australia soon ✈️ ";    
+        }
+        else if ( travel === "France") {
+            let h1 = document.querySelector("h1");
+            h1.innerHTML =
+            "Thank you " + name + " for your suggestion to visit " + travel + "<br> I hope to see Europe soon ✈️ ";    
+        }
+        else if ( travel === "Costa Rica") {
+            let h1 = document.querySelector("h1");
+            h1.innerHTML =
+            "Thank you " + name + " for your suggestion to visit " + travel + "<br> I hope to see North America soon ✈️ ";    
+        }
+        else if ( travel === "Peru") {
+            let h1 = document.querySelector("h1");
+            h1.innerHTML =
+            "Thank you " + name + " for your suggestion to visit " + travel + "<br> I hope to see South America soon ✈️ ";    
+        } else {
+            let h1 = document.querySelector("h1");
+            h1.innerHTML =
+            "Thank you " + name + " for your suggestion to visit " + travel + "! <br> I haven't thought of going there 🤔 " 
+            " <br> I hope I can visit there soon ✈️ ";
+        }
+       
+    }
+
+      let submitButton = document.querySelector("button");
+
+      submitButton.addEventListener("click", submitNow);
+    </script>
+  </body>
+</html>
